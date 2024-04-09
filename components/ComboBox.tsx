@@ -35,7 +35,7 @@ export default function Home() {
     setOpenComboBox(!openComboBox);
   };
 
-  // seleciona e desceleciona todos os locais(planos de saudo)
+  // seleciona e desceleciona todos os locais(planos de saude)
   const handleSelectAll = () => {
     if (selectedItems.length === Countrys.length) {
       setSelectedItems([]);
