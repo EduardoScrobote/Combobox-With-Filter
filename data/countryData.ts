@@ -1,3 +1,7 @@
+export type CountriesType = {
+  id: number;
+  name: string;
+}[];
 export const Countrys = [
   { id: 0, name: "Germany" },
   { id: 1, name: "Croatia" },
